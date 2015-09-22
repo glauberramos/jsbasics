@@ -13,10 +13,13 @@ textarea {
 }
 
 #result {
+	font-family: monaco, Consolas, 'Lucida Console', monospace;
+	line-height: 1.4em; 
+	font-size: 14px;
 	width: 550px;
 	height: 400px;
 	display: inline-block;
-	background: #555;
+	background: #333;
 	color: white;
 	vertical-align: top;
 	padding: 10px;
