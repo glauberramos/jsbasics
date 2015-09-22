@@ -1,5 +1,3 @@
-var root = 'http://jsonplaceholder.typicode.com';
-
 var console = {
 	log: function(data) {
 		$('#result').append(JSON.stringify(data));
