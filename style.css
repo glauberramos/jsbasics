@@ -9,14 +9,27 @@ textarea {
 	font-size: 14px;
 	line-height: 1.4em; 
 	padding: 10px;
+	outline: none;
 }
 
 #result {
-	width: 500px;
-	height: 370px;
+	width: 550px;
+	height: 400px;
 	display: inline-block;
 	background: #555;
 	color: white;
 	vertical-align: top;
 	padding: 10px;
+}
+
+button {
+	display: block;
+	background: #00c853;
+	width: 90px;
+	height: 35px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 2px;
+	outline: none;
 }
