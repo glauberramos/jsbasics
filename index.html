@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<textarea id="editor">
+$.ajax({
+  url: root + '/posts/1',
+    method: 'GET'
+  }).then(function(data) {
+    console.log(data);
+	$('#result').html(JSON.stringify(data));
+});
+	</textarea>
+	<button id="button">Run</button>
+	<div id="result"></div>
+</body>
+</html>

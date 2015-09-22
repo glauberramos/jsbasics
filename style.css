@@ -1,0 +1,22 @@
+body {
+	font-family: monaco, Consolas, 'Lucida Console', monospace;
+}
+
+textarea {
+	font-family: monaco, Consolas, 'Lucida Console', monospace;
+	width: 600px;
+	height: 400px;
+	font-size: 14px;
+	line-height: 1.4em; 
+	padding: 10px;
+}
+
+#result {
+	width: 500px;
+	height: 370px;
+	display: inline-block;
+	background: #555;
+	color: white;
+	vertical-align: top;
+	padding: 10px;
+}
