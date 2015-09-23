@@ -39,3 +39,11 @@ button {
 	border-radius: 2px;
 	outline: none;
 }
+
+.controls {
+	margin-bottom: 1em;
+}
+
+select {
+	font-size: 3em;
+}
