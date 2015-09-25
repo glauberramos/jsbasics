@@ -7,7 +7,7 @@ var console = {
 
 var codes = {
 	'Exercicío 1': 'function say() {\n\
-  return \'Person says hello\'; \n\
+  return \'Person says hello!\'; \n\
 };\n\n\
 say();',
 	'Exercicío 2': 'blablabla'
