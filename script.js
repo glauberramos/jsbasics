@@ -10,7 +10,10 @@ var codes = {
   return \'Person says hello!\'; \n\
 };\n\n\
 say();',
-	'Exercicío 2': 'blablabla'
+	'Exercicío 2': 'var car = { \n\
+  distance: 100\n\
+};\n\n\
+console.log(car.distance);'
 };
 
 $(function() {
