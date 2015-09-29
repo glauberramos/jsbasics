@@ -13,7 +13,18 @@ say();',
 	'Exercicío 2': 'var car = { \n\
   distanciaPercorrida: 100\n\
 };\n\n\
-console.log(car.distanciaPercorrida);'
+console.log(car.distanciaPercorrida);',
+    'Exercicío 3': 'function Person(first, last) {\n\
+  var firstName = first;\n\
+  var lastName = last;\n\n\
+  var publicApi = {};\n\n\
+  publicApi.fullName = function() {\n\
+    return firstName + \' \' + lastName;\n\
+  }\n\n\
+  return publicApi;\n\
+}\n\n\
+var glauber = new Person(\'Glauber\', \'Ramos\');\n\
+console.log(glauber.fullName());'
 };
 
 $(function() {
