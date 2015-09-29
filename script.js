@@ -11,9 +11,9 @@ var codes = {
 };\n\n\
 say();',
 	'Exercicío 2': 'var car = { \n\
-  distance: 100\n\
+  distanciaPercorrida: 100\n\
 };\n\n\
-console.log(car.distance);'
+console.log(car.distanciaPercorrida);'
 };
 
 $(function() {
