@@ -28,6 +28,13 @@ console.log(glauber.fullName());'
 };
 
 $(function() {
+	$('#select').on('change', function() {
+		$('textarea').html('');
+		$('textarea').val('');
+		$('textarea').append(codes[$('select').val()]); 
+		$('textarea').val(codes[$('select').val()]);
+	});
+
 	$('#button').on('click', function() {
 		$('#result').html('');
 		try {
@@ -40,10 +47,5 @@ $(function() {
 		} catch (e) {
 		    $('#result').append(e.message);
 		}
-	});
-
-	$('select').on('change',function() {
-		$('#editor').html('');
-		$('#editor').append(codes[$('select').val()]); 
 	});
 });
