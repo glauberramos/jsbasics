@@ -28,7 +28,7 @@ console.log(glauber.fullName());'
 };
 
 $(function() {
-	$('#button').live('click', function() {
+	$('#button').on('click', function() {
 		$('#result').html('');
 		try {
 			var result = eval($('textarea').val());
@@ -42,7 +42,7 @@ $(function() {
 		}
 	});
 
-	$('select').change(function() {
+	$('select').on('change',function() {
 		$('#editor').html('');
 		$('#editor').append(codes[$('select').val()]); 
 	});
