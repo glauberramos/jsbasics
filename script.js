@@ -28,7 +28,7 @@ console.log(glauber.fullName());'
 };
 
 $(function() {
-	$('#button').on('click', function() {
+	$('#button').live('click', function() {
 		$('#result').html('');
 		try {
 			var result = eval($('textarea').val());
